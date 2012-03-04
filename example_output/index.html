@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta http-equiv="content-type" content="text/html;charset=utf-8"> 
+   <title>untitled slides</title>
+
+<meta name="generator" content="- generator not found -">
+<meta name="author"    content="- author not found -" >
+
+<!-- SyntaxHighlighter (sh) style sheet; goes first so we can override styles if needed -->
+<!-- todo: add theme-ing support -->
+<link rel="stylesheet" href="highlighter/shCoreDefault.css">
+
+<!-- S6 style sheet links -->
+<link rel="stylesheet" href="slide.css"  media="projection" id="styleProjection">
+<link rel="stylesheet" href="s6/screen.css"          media="screen" id="styleScreen">
+<link rel="stylesheet" href="s6/print.css"           media="print">
+
+<!-- S6 JS -->
+<script src="s6/jquery.js"></script>
+<script src="s6/jquery.slideshow.js"></script>
+
+<!-- SyntaxHighlighter (sh) machinery -->
+<script src="highlighter/shCore.js"></script>
+
+<!-- SyntaxHighlighter brushes, remove those for languages you don't need --> 
+<script src="highlighter/shBrushAppleScript.js"></script>
+<script src="highlighter/shBrushAS3.js"></script>
+<script src="highlighter/shBrushBash.js"></script>
+<script src="highlighter/shBrushColdFusion.js"></script>
+<script src="highlighter/shBrushCpp.js"></script>
+<script src="highlighter/shBrushCSharp.js"></script>
+<script src="highlighter/shBrushCss.js"></script>
+<script src="highlighter/shBrushDelphi.js"></script>
+<script src="highlighter/shBrushDiff.js"></script>
+<script src="highlighter/shBrushErlang.js"></script>
+<script src="highlighter/shBrushGroovy.js"></script>
+<script src="highlighter/shBrushJavaFX.js"></script>
+<script src="highlighter/shBrushJava.js"></script>
+<script src="highlighter/shBrushJScript.js"></script>
+<script src="highlighter/shBrushPerl.js"></script>
+<script src="highlighter/shBrushPhp.js"></script>
+<script src="highlighter/shBrushPlain.js"></script>
+<script src="highlighter/shBrushPowerShell.js"></script>
+<script src="highlighter/shBrushPython.js"></script>
+<script src="highlighter/shBrushRuby.js"></script>
+<script src="highlighter/shBrushSass.js"></script>
+<script src="highlighter/shBrushScala.js"></script>
+<script src="highlighter/shBrushSql.js"></script>
+<script src="highlighter/shBrushVb.js"></script>
+<script src="highlighter/shBrushXml.js"></script>
+
+
+<script type="text/javascript">
+
+$(document).ready( function() {
+  Slideshow.init();
+  SyntaxHighlighter.all();
+} );
+
+  
+ 
+</script>
+
+<!-- Better Browser Banner for Microsoft Internet Explorer (IE) -->
+<!--[if IE]>
+<script src="s6/jquery.microsoft.js"></script>
+<![endif]-->
+
+
+
+</head>
+<body>
+
+<div class="layout"> 
+  <div id="header"></div>
+  <div id="footer">
+    <h1></h1>
+    <h2></h2>
+  </div>
+</div><!-- layout -->
+
+<div class="presentation">
+
+<div class="slide" ><h1>pys9 - Yet another HTML slides generator</h1>
+
+<h3>Syntax Highlight</h3>
+
+<ul>
+<li>java, js, python, c/cpp, ruby...</li>
+</ul>
+
+<h3>Generate your slides with Markdown</h3>
+
+<ul>
+<li>a superset of markdown language</li>
+</ul>
+
+<h3>Custom Styles</h3>
+
+<ul>
+<li>or hack the default template</li>
+<li>zip format template</li>
+</ul>
+</div><div class="slide" ><h1>Syntax Highlight</h1>
+
+<div class="code"><pre class="brush: python toolbar: false gutter: true">
+def usage():
+    print 'pys9 - a simple python clone of s9slideshow, yet another html slides generator.'
+    print 'usage: python genslides.py'
+    print '-o &lt;dir&gt; : output dir, default=./output'
+    print '-t &lt;template-path&gt; : template file, default=./template.zip'
+    print 'sample: '
+    print 'genslide.py &lt; source.md'
+    print 'genslide.py -o ./output -t ./template.zip &lt; source.md'
+</pre></div>
+
+<h2>Java, Javascript, C/C++, Python, Ruby, PHP...are supported!</h2>
+</div><div class="slide" ><h1>Enjoy it!</h1>
+
+<h2>Slides generator for Programmer!</h2>
+</div>
+
+</div><!-- presentation -->
+</body>
+</html>
