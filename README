@@ -1,0 +1,34 @@
+#pys9
+
+一个简单的HTML幻灯片生成工具, 根据markdown文本生成slides
+项目的起源是，因为作者机器上的ruby坏掉了，但是又想用s9来生成slides，所以就花了一个周末的下午用python把s6syntax的模板包装了一下，然后重写了s9的部分逻辑，删除了没啥用的功能，感觉已经能满足基本需求了.
+
+
+pys9需要依赖markdown2
+    easy_install markdown2
+
+##简介
+
+- 语法:
+    # --- 幻灯片标题， 如: #Welcome!
+    ||| --- 新建一张slide, 也就是slide的分割符
+
+    [code <language>] xxx [/code] --- 语法高亮， language部分为语言名: java, php等
+    其他的语法和markdown的一样，这里就不废话了
+
+
+- 使用方法：
+  genslide.py < markdownfile.md
+  默认会在当前文件夹下建立一个output文件夹
+  
+  -o参数指定输出路径
+  -t参数指定模板，模板是一个zip包, 默认为template.zip ，解压自带的template.zip以后就知道是什么了
+
+
+## Example
+放了个例子的md文件在example目录，可以参考一下。
+
+## About me
+
+email: huangdongxu1987@gmail.com
+geek, 一个非前端程序员
